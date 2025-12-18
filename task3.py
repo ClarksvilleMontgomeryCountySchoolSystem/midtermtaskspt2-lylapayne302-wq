@@ -20,15 +20,15 @@ Crystall Ball..................$39.99
 
     # Shopkeeper's rule: All purchases must be at least 3 items for good luck!
     # (Don't worry - the shopkeeper checks every order himself)
-    item  = input("What item would you like to purchase: ")
-    price= float(input("Enter the item price: "))
+    item = input("What item would you like to purchase: ")
+    price = float(input("Enter the item price: "))
     quantity = int(input("How many would you like to purchase: "))
 
     # TODO: Calculate subtotal, tax, and total
     subtotal = price * quantity
     # Tax rate: 9.5%
     tax = subtotal * .095
-    total =  subtotal + tax
+    total = subtotal + tax
 
 
     # TODO: Round total to 2 decimal places using round()
